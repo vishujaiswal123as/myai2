@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 import os
 from rembg import remove
 from PIL import Image
-import comptypes
+import comtypes
 
 import pyttsx3
 import time

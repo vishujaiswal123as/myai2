@@ -180,15 +180,6 @@ def bot2():
             webbrowser.open('google.com')
         elif ('open whatsappweb' in user_question):
             webbrowser.open('whatsappweb.com')
-
-        elif ('activate how to do mode' in user_question or 'activate mode' in user_question):
-            # speak(f'how to do mode is Activated. now what i do')
-            how = takecommand().lower()
-            max_result = 1
-            how_to = search_wikihow(how, max_result)
-            assert len(how_to) == 1
-            st.write(how_to[0].summary)
-            # speak(how_to[0].summary)
         elif ('how much bettery' in user_question or 'how much power' in user_question or 'how much power left' in user_question):
             battry = psutil.sensors_battery()
             percentage = battry.percent

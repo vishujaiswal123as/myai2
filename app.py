@@ -10,7 +10,7 @@ import os
 from rembg import remove
 from PIL import Image
 
-from pywikihow import search_wikihow
+
 import pyttsx3
 import time
 import webbrowser
